@@ -1,0 +1,7 @@
+{
+  "name": "Heroku Connect DEMO",
+  "description": "CRUD operations using PostgreSQL as a database, Heroku as platform, Node.js as language and Angularjs as javascript based MVC",
+  "repository": "https://github.com/wr-murru/heroku-connect-demo-02",
+  "logo": "https://heroku-connect-demo-02.herokuapp.com/Node.ico",
+  "keywords": [ "Salesforce", "AngularJs", "Node.js", "PostgreSQL", "Jitendra"]
+}
