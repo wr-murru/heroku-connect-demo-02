@@ -9,6 +9,7 @@
     "express": "~4.4.5",
     "logfmt": "~1.1.2",
     "body-parser": "~1.6.2",
+    "express-error-handler" : "*",
     "serve-favicon": "*",
     "cookie-parser": "~1.0.1",
     "jade": "*",
