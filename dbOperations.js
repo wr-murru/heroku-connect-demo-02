@@ -31,7 +31,7 @@ module.exports = {
         var client = new pg.Client(conString);
 
         client.connect();
-        var query = client.query("insert into salesforce.contact (firstname,lastname,email,mobilephonse) "+ 
+        var query = client.query("insert into salesforce.contact (firstname,lastname,email,mobilephone) "+ 
                                 "values ('"+req.query.fName+"','"+req.query.lName+"','"+
                                     req.query.email+"','"+req.query.mbl+"')");
     
