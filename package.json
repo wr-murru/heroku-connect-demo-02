@@ -15,7 +15,8 @@
     "jade": "*",
     "jaydata" : "*",
     "xmldom" : "*",
-    "q" : "*"
+    "q" : "*",
+    "pg":"*"
       
   },
   "devDependencies": {},
