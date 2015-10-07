@@ -51,7 +51,7 @@ module.exports = {
 
         client.connect();
          
-        var query = client.query( "Delete from employee Where id ="+req.query.id);
+        var query = client.query( "Delete from salesforce.contact Where id ="+req.query.id);
     
         query.on("end", function (result) {          
             client.end(); 
