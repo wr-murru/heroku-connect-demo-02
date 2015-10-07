@@ -27,13 +27,17 @@ app.get('/db/delRecord', function(req,res){
     dbOperations.delRecord(req,res);
 });
 
+/*
 app.get('/db/createTable', function(req,res){
     dbOperations.createTable(req,res);
 });
+*/
 
+/*
 app.get('/db/dropTable', function(req,res){
     dbOperations.dropTable(req,res);
 }); 
+*/
 
 app.set('port', process.env.PORT || 3001);
 
